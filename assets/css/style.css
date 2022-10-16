@@ -260,10 +260,16 @@ h6 {
 
 #hero p {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 26px;
   width: 420px;
   font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 500px) {
+  #hero p {
+    width: auto;
+  }
 }
 
 #hero p span {
